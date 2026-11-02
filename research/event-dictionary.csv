@@ -1,0 +1,7 @@
+event_name,fields,purpose
+task_started,participant_code|task_id|interface|language|timestamp,Measure task start
+task_completed,participant_code|task_id|interface|language|duration_seconds,Measure success and time
+interaction_error,participant_code|task_id|error_type|language,Count interaction errors
+assistance_given,participant_code|task_id|assistance_level,Record moderator intervention
+voice_attempt,participant_code|language|browser_support|success|noise_band,Measure voice interaction reliability
+booking_demo_created,participant_code|language|task_id,Confirm simulated workflow completion
